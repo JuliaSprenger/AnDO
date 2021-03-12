@@ -35,7 +35,7 @@ setup(
     install_requires=['flake8'],
     include_package_data=True,
     entry_points={
-        'console_scripts': ['AnDOChecker=ando.checker:main',
+        'console_scripts': ['AnDOChecker=ando.AnDOChecker:main',
                             'AnDOGenerator=tools.generator.AnDOGenerator:main',
                             'AnDOViewer=tools.viewer.AnDOViewer:main'],
     },
